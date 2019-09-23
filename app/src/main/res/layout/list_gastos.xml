@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtValorGasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/txtDataGasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/txtLocalGasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="local"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/txtCatGasto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoria"
+        android:layout_marginLeft="5dp"/>
+</LinearLayout>
